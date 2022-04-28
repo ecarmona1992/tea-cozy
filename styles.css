@@ -1,0 +1,165 @@
+* {
+    font-family: Helvetica, sans-serif, Arial;
+    color: seashell;
+    /* opacity: 0.9;
+    margin: 0; */
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 22px;
+}
+/* Nav menu */
+.nav {
+    display: flex;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+}
+
+.menu-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-items {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 0 7px;
+    font-size: 22px;
+}
+
+.menu-container a:hover {
+    color: red;
+}
+
+/* Nav Menu END */
+
+/* Header */
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-header {
+    background:url("header.jpg") no-repeat;
+    width: 90%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+.mission-txt {
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    background-color: black;
+}
+/* Header END */
+
+/* Tea Section */
+.tea-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tea-container {
+    width: 1000px;
+    flex-direction: column;
+}
+
+.tea-title {
+    text-align: center;
+    line-height: 35px;
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.img-content {
+    padding-bottom: 18px;
+    margin: 0 15px;
+}
+.tea-img {
+    height: 200px;
+    width: 300px;
+}
+
+.img-content h4 {
+    margin-top: 10px;
+}
+/* Tea Section END */
+
+/* Locations */
+.location-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-location {
+    background:url("location.jpg") no-repeat;
+    background-position: center;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    background-size: cover;
+}
+
+.location-title {
+    
+}
+
+.location-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.location {
+    background-color: black;
+    width: 300px;
+    margin: 0 25px;
+}
+
+.location h4 {
+    font-weight: 400;
+}
+/* Locations END */
+
+/* Footer */
+footer {
+    height: 200px;
+}
+.footer-content {
+    text-align: center;
+}
+
+.copyright {
+    margin-left: 20px;
+    text-align: left;
+}
+
+/* Footer END */
